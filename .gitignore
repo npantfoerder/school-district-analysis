@@ -29,8 +29,6 @@ MANIFEST
 
 # .DS_Store
 .DS_Store
-# Jupyter Notebooks
-*.ipynb
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
