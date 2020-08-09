@@ -13,6 +13,9 @@ This analysis will assist the school board and superintendent in making decision
 
 ## Results
 - How is the district summary affected?
+
+<img src="https://github.com/npantfoerder/school-district-analysis/edit/master/Resources/district_summary_df.png">
+
 - How is the school summary affected?
 - How does replacing the ninth graders' math and reading scores affect Thomas High School's performance relative to other schools?
 - How does replacing ninth-grade scores affect the following:
