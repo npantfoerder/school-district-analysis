@@ -12,7 +12,7 @@ Your task is to aggregate the data and showcase trends in school performance.
 This analysis will assist the school board and superintendent in making decisions regarding the school budgets and priorities*
 
 ## Results
-- Replacing ninth-grade scores at Thomas High School affects the Average Math Score, % Passing Math, % Passing Reading, and % Overall Passing columns in the district summary. Before replacing the ninth grade scores from Thomas High School, the average math score was 79.0, 75% of students were passing math, 86% were passing reading, and 65% were passing overall. After replacing the data with NaNs, all four of those statistics decreased. Below is the updated district summary.
+- Replacing ninth-grade scores at Thomas High School affects the Average Math Score, % Passing Math, % Passing Reading, and % Overall Passing columns in the district summary. Before replacing the ninth grade scores from Thomas High School, the average math score was 79.0, 75% of students were passing math, 86% were passing reading, and 65% were passing overall. After replacing the data with NaNs, all four of those statistics decreased. Below is the updated district summary:
 
 <img src="https://github.com/npantfoerder/school-district-analysis/blob/master/Resources/district_summary_df.png">
 
@@ -25,12 +25,17 @@ This analysis will assist the school board and superintendent in making decision
 - Average school scores based on school spending, size, and type were affected in the following manner:
 - How does replacing ninth-grade scores affect the following:
   - For the average math and reading scores by grade, the ninth grade values for Thomas High School are NaN.
-  - For averages by school spending, the row containing Thomas High School was affected ($630-644 Per Student). The average math and reading scores were unchanged. The % Passing Math, % Passing Reading, and % Overall Passing values all decreased. Before replacing the ninth-grade scores, 73% of students attending schools in this range were passing math, 84% were passing reading, and 63% were passing overall. The upated percentages can be seen in the dataframe printed below.
+  - For averages by school spending, the row containing Thomas High School was affected ($630-644 Per Student). The average math and reading scores were unchanged. The % Passing Math, % Passing Reading, and % Overall Passing values all decreased. Before replacing the ninth-grade scores, 73% of students attending schools in this range were passing math, 84% were passing reading, and 63% were passing overall. The upated percentages can be seen in the dataframe printed below:
   
-<img src="https://github.com/npantfoerder/school-district-analysis/blob/master/Resources/spending_summary_df.png" width="750">
+<img src="https://github.com/npantfoerder/school-district-analysis/blob/master/Resources/spending_summary_df.png" width="700">
   
-  - Scores by school size
-  - Scores by school type
+  - For averages by school size, the Medium (1,000-1,999) row was affected. The average math and reading scores were unchanged. Before the ninth-grade scores were replaced, 94% of students attending medium sized schools were passing math, 97% were passing reading, and 91% were passing overall. The updated percentages can be seen below:
+  
+<img src="https://github.com/npantfoerder/school-district-analysis/blob/master/Resources/size_summary_df.png" width="700">
+
+  - For averages by school type, the Charter row was affected. The average math and reading scores were unchanged. Before replacing the scores, 94% of students attending charter schools were passing math, 97% were passing reading, and 90% were passing overall. The updated percentages can be seen in the dataframe below:
+  
+<img src="https://github.com/npantfoerder/school-district-analysis/blob/master/Resources/type_summary_df.png" width="700">
 
 ## Summary
 *Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs*
