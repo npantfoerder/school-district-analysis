@@ -6,7 +6,7 @@ Maria, the chief data scientist for a city school district, wants help analyzing
 The school board has notified Maria that the students_complete.csv file shows evidence of academic dishonesty. The math and reading scores for Thomas High School ninth graders need to be replaced with NaNs while keeping the rest of the data intact. Maria wants a report describing how these changes affected the overall analysis. 
 
 ## Results
-- Replacing ninth-grade scores at Thomas High School affects the Average Math Score, % Passing Math, % Passing Reading, and % Overall Passing columns in the district summary. Before replacing the ninth grade scores from Thomas High School, the average math score was 79.0, 75% of students were passing math, 86% were passing reading, and 65% were passing overall. After replacing the data with NaNs, all four of those statistics decreased. Below is the updated district summary:
+- In the district summary, the Average Math Score, % Passing Math, % Passing Reading, and % Overall Passing columns are all affected. Before replacing the ninth grade scores from Thomas High School, the average math score was 79.0, 75% of students were passing math, 86% were passing reading, and 65% were passing overall. After replacing the data with NaNs, all four of those statistics decreased. Below is the updated district summary:
 
 <img src="https://github.com/npantfoerder/school-district-analysis/blob/master/Resources/district_summary_df.png">
 
