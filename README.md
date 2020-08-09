@@ -16,11 +16,11 @@ This analysis will assist the school board and superintendent in making decision
 
 <img src="https://github.com/npantfoerder/school-district-analysis/blob/master/Resources/district_summary_df.png">
 
-- In the school summary, only the Thomas High School row was affected. The Average Reading Score increased? The % Passing Math, % Passing Reading, and % Overall Passing values all decreased significantly. Before replacing the ninth grade scores, %93 of Thomas High School students were passing math, 97% were passing reading, and 91% were passing overall. After updating the summary, these percentages decreased to 67%, 70% and 65%, respectively. An updated version of the school summary can be seen below:
+- In the school summary, only the Thomas High School row is affected. The first 5 values were unchanged. The average reading score increased from 83.8 to 83.9 and the % Passing Math, % Passing Reading, and % Overall Passing values all decreased significantly. Before replacing the ninth grade scores, %93 of Thomas High School students were passing math, 97% were passing reading, and 91% were passing overall. After updating the summary, these percentages decreased to 67%, 70% and 65%, respectively. An updated version of the school summary can be seen below:
 
 <img src="https://github.com/npantfoerder/school-district-analysis/blob/master/Resources/by_school_summary_df.png" width="600">
 
-- How does replacing the ninth graders' math and reading scores affect Thomas High School's performance relative to other schools?
+- Replacing the ninth graders' math and reading scores affects Thomas High School's performance relative to other schools by ...
 
 <img src="https://github.com/npantfoerder/school-district-analysis/blob/master/Resources/bottom_schools.png" width="700">
 
