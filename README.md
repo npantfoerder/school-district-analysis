@@ -12,11 +12,11 @@ Your task is to aggregate the data and showcase trends in school performance.
 This analysis will assist the school board and superintendent in making decisions regarding the school budgets and priorities*
 
 ## Results
-- How is the district summary affected?
+- The Average Math Score, % Passing Math, % Passing Reading, and % Overall Passing columns are all affected in the district summary. Before replacing the ninth grade scores from Thomas High School, the average math score was 79.0, 75% of students were passing math, 86% were passing reading, and 65% were passing overall. After replacing the data with NaNs, all four of those statistics decreased. Below is the updated district summary.
 
 <img src="https://github.com/npantfoerder/school-district-analysis/blob/master/Resources/district_summary_df.png">
 
-- How is the school summary affected?
+- In the school summary, only the Thomas High School row was affected. The Average Reading Score increased? The % Passing Math, % Passing Reading, and % Overall Passing values all decreased significantly. Before replacing the ninth grade scores, %93 of Thomas High School students were passing math, 97% were passing reading, and 91% were passing overall. After updating the summary, these percentages decreased to 67%, 70% and 65%, respectively. An updated version of the school summary can be seen below:
 
 <img src="https://github.com/npantfoerder/school-district-analysis/blob/master/Resources/by_school_summary_df.png" width="600">
 
