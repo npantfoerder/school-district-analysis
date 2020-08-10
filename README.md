@@ -14,7 +14,6 @@ The school board has notified Maria that the students_complete.csv file shows ev
 
 - Replacing the ninth graders' math and reading scores affects Thomas High School's performance relative to other schools by removing it from the top 5 schools based on the percentage of students passing overall. After making the necessary adjustments to the data, Thomas High School becomes the 8th best performing school in this category. Holden High School is 7th with 89% of their students passing overall and Bailey High School is 9th with 55%.
 
-- Statistics based on school spending, size, and type are affected in the following manner:
 - Replacing ninth-grade scores also affects statistics based on grade, school spending, school size, and school type:
   - For the average math and reading scores by grade, the ninth-grade values for Thomas High School are NaN.
   - For statistcs based on school spending, the row containing Thomas High School is affected ($630-644 Per Student). The average math and reading scores are unchanged. The % Passing Math, % Passing Reading, and % Overall Passing values all decreased. Before replacing the scores, 73% of students attending schools with this spending range were passing math, 84% were passing reading, and 63% were passing overall. The upated percentages can be seen in the dataframe printed below:
