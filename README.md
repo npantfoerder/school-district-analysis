@@ -35,9 +35,9 @@ The school board has notified Maria that the students_complete.csv file shows ev
 
 - A second major change in the updated analysis after the ninth-grade scores are replaced is how Thomas High School is ranked in comparison to the other schools in the district. In the results, we saw that Thomas High School moved from being one of the top 5 schools based on the percentage of students passing overall, to 8th place. When sorting the school summary by the percentage of students passing reading, Thomas High School goes from being the top school to the 8th school. Thomas High School also moves from the 7th to the 9th ranked school based on percentage of students passing math. 
 
-- Another big change in the updated analysis is 
+- Another big change in the updated analysis is the $630-644 row in the dataframe grouped by school spending per student. Thomas High School was one of 4 schools in this spending range. Once again, the % Passing Math, % Passing Reading, and % Overall passing values all decreased. 
 
-- A final big change in the updated analysis is 
+- A final big change in the updated analysis is the Medium (1,000-1,999) row in the dataframe grouped by school size. Thomas High School was one of three medium sized school. Here, the % Passing Math, % Passing Reading, and % Overall Passing values all decreased by 6. 
 
 ### Resources
 - Data Sources: schools_complete.csv, students_complete.csv
