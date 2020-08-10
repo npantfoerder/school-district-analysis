@@ -6,7 +6,7 @@ Maria, the chief data scientist for a city school district, wants help analyzing
 The school board has notified Maria that the students_complete.csv file shows evidence of academic dishonesty. The math and reading scores for Thomas High School ninth-grade students need to be replaced with NaNs while keeping the rest of the data intact. Maria wants a report describing how these changes affected the overall analysis. 
 
 ## Results
-- In the district summary, the Average Math Score, % Passing Math, % Passing Reading, and % Overall Passing columns are all affected. Before replacing the ninth grade scores from Thomas High School, the average math score is 79.0, 75% of students were passing math, 86% were passing reading, and 65% were passing overall. After replacing the data with NaNs, all four of those statistics decreased. Below is the updated district summary:
+- In the district summary, the Average Math Score, % Passing Math, % Passing Reading, and % Overall Passing columns are all affected. Before replacing the ninth-grade scores from Thomas High School, the average math score is 79.0, 75% of students were passing math, 86% were passing reading, and 65% were passing overall. After replacing the data with NaNs, all four of those statistics decreased. Below is the updated district summary:
 
 <img src="https://github.com/npantfoerder/school-district-analysis/blob/master/Resources/district_summary_df.png">
 
@@ -18,7 +18,7 @@ The school board has notified Maria that the students_complete.csv file shows ev
 
 - Average school scores based on school spending, size, and type are affected in the following manner:
 - Replacing ninth-grade scores also affects averages by grade, school spending, school size, and school type:
-  - For the average math and reading scores by grade, the ninth grade values for Thomas High School are NaN.
+  - For the average math and reading scores by grade, the ninth-grade values for Thomas High School are NaN.
   - For averages by school spending, the row containing Thomas High School is affected ($630-644 Per Student). The average math and reading scores are unchanged. The % Passing Math, % Passing Reading, and % Overall Passing values all decreased. Before replacing the scores, 73% of students attending schools in this range were passing math, 84% were passing reading, and 63% were passing overall. The upated percentages can be seen in the dataframe printed below:
   <img src="https://github.com/npantfoerder/school-district-analysis/blob/master/Resources/spending_summary_df.png" width="700">
   
