@@ -7,11 +7,9 @@ The school board has notified Maria that the students_complete.csv file shows ev
 
 ## Results
 - In the district summary, the Average Math Score, % Passing Math, % Passing Reading, and % Overall Passing columns are all affected. Before replacing the ninth-grade scores from Thomas High School, the average math score is 79.0, 75% of students were passing math, 86% were passing reading, and 65% were passing overall. After replacing the data with NaNs, all four of those statistics decreased. Below is the updated district summary:
-
 <img src="https://github.com/npantfoerder/school-district-analysis/blob/master/Resources/district_summary_df.png">
 
 - In the school summary, only the Thomas High School row is affected. The first 5 values are unchanged. The average reading score increased from 83.8 to 83.9 and the % Passing Math, % Passing Reading, and % Overall Passing values all decreased significantly. Before replacing the ninth-grade scores, 93% of Thomas High School students were passing math, 97% were passing reading, and 91% were passing overall. After updating the summary, these percentages decreased to 67%, 70% and 65%, respectively. An updated version of the school summary can be seen below:
-
 <img src="https://github.com/npantfoerder/school-district-analysis/blob/master/Resources/by_school_summary_df.png" width="600">
 
 - Replacing the ninth graders' math and reading scores affects Thomas High School's performance relative to other schools by removing it from the top 5 schools based on the percentage of students passing overall. After making the necessary adjustments to the data, Thomas High School becomes the 8th best performing school in this category. Holden High School is 7th with 89% of their students passing overall and Bailey High School is 9th with 55%.
