@@ -15,7 +15,7 @@ The school board has notified Maria that the students_complete.csv file shows ev
 - Replacing the ninth graders' math and reading scores affects Thomas High School's performance relative to other schools by removing it from the top 5 schools based on the percentage of students passing overall. After making the necessary adjustments to the data, Thomas High School becomes the 8th best performing school in this category. Holden High School is 7th with 89% of their students passing overall and Bailey High School is 9th with 55%.
 
 - Statistics based on school spending, size, and type are affected in the following manner:
-- Replacing ninth-grade scores also affects averages by grade, school spending, school size, and school type:
+- Replacing ninth-grade scores also affects statistics based on grade, school spending, school size, and school type:
   - For the average math and reading scores by grade, the ninth-grade values for Thomas High School are NaN.
   - For statistcs based on school spending, the row containing Thomas High School is affected ($630-644 Per Student). The average math and reading scores are unchanged. The % Passing Math, % Passing Reading, and % Overall Passing values all decreased. Before replacing the scores, 73% of students attending schools with this spending range were passing math, 84% were passing reading, and 63% were passing overall. The upated percentages can be seen in the dataframe printed below:
   <img src="https://github.com/npantfoerder/school-district-analysis/blob/master/Resources/spending_summary_df.png" width="700">
@@ -27,13 +27,13 @@ The school board has notified Maria that the students_complete.csv file shows ev
   <img src="https://github.com/npantfoerder/school-district-analysis/blob/master/Resources/type_summary_df.png" width="700">
 
 ## Summary
-- One major change in the updated school district analysis is the Thomas High School row in the school summary. Although the first 5 values do not change and the average reading score increased by 0.1, all of the passing percentages decreased significantly. Replacing all of the ninth-grade scores with NaNs decreases these percentages since the total number of students does not change, but none of ninth-grade scores are greater than 70.
+- One major change in the updated school district analysis is the Thomas High School row in the school summary. Although the first 5 values did not change and the average reading score increased by 0.1, all of the passing percentages decreased significantly. Replacing all of the ninth-grade scores with NaNs decreases these percentages since the total student count does not change, but none of ninth-grade scores count as passing.
 
 - A second major change in the updated analysis is how Thomas High School is ranked in comparison to the other schools in the district. In the results, we saw that Thomas High School moved from being one of the top 5 schools based on % Passing Overall, to the 8th school. When sorting the school summary by % Passing Reading, Thomas High School goes from being the top school to the 8th school. Thomas High School also moves from the 7th to the 9th ranked school based on % Passing Math. 
 
 - Another big change in the updated analysis is the passing percentages based on spending ranges. Thomas High School was one of 4 schools in the $630-644 school spending per student range. Before replacing the scores, 73% of students attending schools with this spending range were passing math, 84% were passing reading, and 63% were passing overall. Once again, all of these percentages decreased.
 
-- A fourth big change in the updated analysis after replacing the ninth-grade scores is the passing percentages based on school size. Thomas High School was one of three schools with 1,000 to 1,999 students. The % Passing Math, % Passing Reading, and % Overall Passing values for schools that size all decreased by 6. 
+- A fourth big change in the updated analysis after replacing the ninth-grade scores is the passing percentages based on school size. Thomas High School was one of three schools with 1,000 to 1,999 students. Before replacing the scores, 94% of students attending schools that size were passing math, 97% were passing reading, and 91% were passing overall. In the updated analysis, these percentages all decreased by 6. 
 
 ### Resources
 - Data Sources: schools_complete.csv, students_complete.csv
