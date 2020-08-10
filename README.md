@@ -16,7 +16,7 @@ In the school summary, only the Thomas High School row is affected. The first 5 
 <img src="https://github.com/npantfoerder/school-district-analysis/blob/master/Resources/by_school_summary_df.png" width="600">
 
 ### Effects on Relative Performance
-- Replacing the ninth graders' math and reading scores affects Thomas High School's performance relative to other schools by removing it from the top 5 schools based on the percentage of students passing overall. After making the necessary adjustments to the data, Thomas High School becomes the 8th best performing school in this category. Holden High School is 7th with 89% of their students passing overall and Bailey High School is 9th with 55%.
+Replacing the ninth graders' math and reading scores affects Thomas High School's performance relative to other schools by removing it from the top 5 schools based on the percentage of students passing overall. After making the necessary adjustments to the data, Thomas High School becomes the 8th best performing school in this category. Holden High School is 7th with 89% of their students passing overall and Bailey High School is 9th with 55%.
 
 ### Effects on Statistics Based on Various Categories
 Replacing ninth-grade scores affects statistics based on grade, school spending, school size, and school type:
@@ -40,6 +40,6 @@ Replacing ninth-grade scores affects statistics based on grade, school spending,
 
 - A fourth big change in the analysis after replacing the ninth-grade scores is the passing percentages based on school size. Thomas High School was one of three schools with 1,000 to 1,999 students. Before replacing the scores, 94% of students attending schools that size were passing math, 97% were passing reading, and 91% were passing overall. In the updated analysis, these percentages all decreased by 6. 
 
-### Resources
+#### Resources
 - Data Sources: schools_complete.csv, students_complete.csv
 - Software: Python 3.7.6, Anaconda 4.8.3
