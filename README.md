@@ -35,7 +35,7 @@ The school board has notified Maria that the students_complete.csv file shows ev
 
 - Another big change in the updated analysis is the $630-644 row in the dataframe grouped by school spending per student. Thomas High School was one of 4 schools in this spending range. Once again, the % Passing Math, % Passing Reading, and % Overall passing values all decreased. 
 
-- A final big change in the updated analysis after the ninth-grade scores are replaced is the Medium (1,000-1,999) row in the dataframe grouped by school size. Thomas High School was one of three medium sized schools. Here, the % Passing Math, % Passing Reading, and % Overall Passing values all decreased by 6. 
+- A fourth big change in the updated analysis after the ninth-grade scores are replaced is the Medium (1,000-1,999) row in the dataframe grouped by school size. Thomas High School was one of three medium sized schools. Here, the % Passing Math, % Passing Reading, and % Overall Passing values all decreased by 6. 
 
 ### Resources
 - Data Sources: schools_complete.csv, students_complete.csv
