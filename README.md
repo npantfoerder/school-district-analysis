@@ -3,7 +3,7 @@
 ## Overview of the School District Analysis
 Maria, the chief data scientist for a city school district, wants help analyzing data on student funding and students' standardized test scores. Aggregating the data and showcasing trends in school performances will assist the school board and superintendent in making decisions regarding the budget allotments.
 
-The school board has notified Maria that the students_complete.csv file shows evidence of academic dishonesty. The math and reading scores for Thomas High School ninth graders need to be replaced with NaNs while keeping the rest of the data intact. Maria wants a report describing how these changes affected the overall analysis. 
+The school board has notified Maria that the students_complete.csv file shows evidence of academic dishonesty. The math and reading scores for Thomas High School ninth-grade students need to be replaced with NaNs while keeping the rest of the data intact. Maria wants a report describing how these changes affected the overall analysis. 
 
 ## Results
 - In the district summary, the Average Math Score, % Passing Math, % Passing Reading, and % Overall Passing columns are all affected. Before replacing the ninth grade scores from Thomas High School, the average math score was 79.0, 75% of students were passing math, 86% were passing reading, and 65% were passing overall. After replacing the data with NaNs, all four of those statistics decreased. Below is the updated district summary:
@@ -33,6 +33,14 @@ The school board has notified Maria that the students_complete.csv file shows ev
 
 ## Summary
 *Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs*
+
+- One major change in the updated school district analysis is how Thomas High School is ranked in comparison to the other schools in the district. In the results, we saw that Thomas High School moved from being one of the top 5 schools based on the percentage of students passing overall, to 8th place. When sorting the school summary by the percentage of students passing reading, Thomas High School goes from being the top school to the 8th school. Thomas High School also moves from the 7th to the 9th ranked school based on percentage of students passing math. Replacing all of the ninth-grade scores from Thomas High School with NaNs decreases the percentage of students passing since they are still being counted as towards the number of students, but none of their scores are greater than 70.
+
+- A second major change in the updated analysis after the ninth-grade scores were replaced is 
+
+- Another big change in the updated analysis is 
+
+- A final big change in the updated analysis is 
 
 ### Resources
 - Data Sources: schools_complete.csv, students_complete.csv
