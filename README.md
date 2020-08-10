@@ -33,7 +33,7 @@ The school board has notified Maria that the students_complete.csv file shows ev
 
 - Another big change in the updated analysis is the passing percentages based on spending ranges. Thomas High School was one of 4 schools in the $630-644 school spending per student range. Before replacing the scores, 73% of students attending schools with this spending range were passing math, 84% were passing reading, and 63% were passing overall. Once again, all of these percentages decreased.
 
-- A fourth big change in the updated analysis after replacing the ninth-grade scores is the passing percentages based on school size. Thomas High School was one of three schools with 1,000 to 1,999 students. The % Passing Math, % Passing Reading, and % Overall Passing values for schools with that size all decreased by 6. 
+- A fourth big change in the updated analysis after replacing the ninth-grade scores is the passing percentages based on school size. Thomas High School was one of three schools with 1,000 to 1,999 students. The % Passing Math, % Passing Reading, and % Overall Passing values for schools that size all decreased by 6. 
 
 ### Resources
 - Data Sources: schools_complete.csv, students_complete.csv
